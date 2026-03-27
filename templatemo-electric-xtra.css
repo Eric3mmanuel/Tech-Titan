@@ -961,6 +961,7 @@ https://templatemo.com/tm-596-electric-xtra
             height: 100%;
             background: linear-gradient(45deg, transparent 40%, rgba(255, 94, 0, 0.1) 50%, transparent 60%);
             animation: scan 3s linear infinite;
+            pointer-events: none;
         }
 
         @keyframes scan {

@@ -931,12 +931,27 @@ https://templatemo.com/tm-596-electric-xtra
             justify-content: center;
             position: relative;
             overflow: hidden;
+            width: 100%;
+            
         }
 
         .map-placeholder {
             text-align: center;
             opacity: 0.6;
+            position: relative;
+            width: 100%;
+            aspect-ratio: 16 / 9; 
         }
+
+        /* Make iframe fill everything */
+.map-placeholder iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
 
         .map-overlay {
             position: absolute;
